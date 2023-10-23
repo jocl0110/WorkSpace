@@ -1,0 +1,44 @@
+html{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgba(4, 8, 17, 1);
+    color: whitesmoke;
+}
+#title, #title-desc{
+    text-align: center;
+}
+#img-div{
+    display: block;
+    margin: 0 auto;
+    padding: auto;
+    width: 1000px;
+    height: 800px;
+} 
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+#img-caption{
+    text-align: center;
+}
+#tribute-info{
+    width: 100%;
+    margin: 2rem auto;
+}
+a{
+    color: rgba(40, 98, 200, 1);
+}
+a:visited{
+    color: rgba(99, 51, 158, 1);
+}
+a:hover{
+    color: rgba(31, 148, 178, 1);
+}
+a:active{
+    color: rgba(99, 51, 158, 1);
+}
