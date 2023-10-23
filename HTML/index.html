@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Aplication for Camaco</h1>
+    </header>
+     <p id="description">Please fill out the complete form to get a better picture of your data.</p>
+    <form id="survey-form"> 
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name" id="name-label">Full Name<input id="name" required type="text" placeholder="Juan Gomez"></label>
+        <label for="email" id="email-label">Email Address<input id="email" type="email" required placeholder="example@gmail.com"></label>
+        <label for="number" id="number-label">Age<input id="number" type="number" min="18" max="120" placeholder="18" pattern="[0-9]+"></label>
+      </fieldset>
+      <p>Which option best describes your current role</p> 
+      <select id="dropdown">
+        <option>Full-Time</option>
+        <option>Part-Time</option>
+        <option>Student</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select>
+      <p>How you heard about us?</p>
+      <label><input name="heard-abus" value="internet" type="radio" class="inline">Internet</label>
+      <label><input type="radio" name="heard-abus" value="social-media" class="inline">Social Media</label>
+      <label><input type="radio" name="heard-abus" value="radio" class="inline">Radio</label>
+      <p>Which would be your preferred position(Check all that apply)</p>
+      <label><input name="position" value="tool&die" type="checkbox" class="inline">Tool & Die</label>
+      <label><input name="position" value="robo-tech" type="checkbox" class="inline">Robot Technician</label>
+      <label><input type="checkbox" name="position" value="operator" class="inline">Machine Operator</label>
+      <label><input name="position" value="press" type="checkbox" class="inline">Press Operator</label>
+      <p>Please provide us with a summary of what skills you have.</p>
+      <textarea></textarea>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
